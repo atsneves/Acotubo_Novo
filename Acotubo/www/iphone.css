@@ -565,9 +565,12 @@ label{
 #sw-wrapper {
     width:100% !important;
 }
+body{
+    overflow: hidden !important;
+}
 #filia{
-    height:300px;
-    width:600px;
+    height:170px  !important;
+    position: relative;
 }
 .iconNext{
     position:relative;

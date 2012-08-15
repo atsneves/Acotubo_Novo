@@ -3,7 +3,7 @@
   <head>
   <title></title>
   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=.5 ,user-scalable=no;" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no;" />
 	<meta charset="utf-8">
 
 
@@ -2202,6 +2202,7 @@
 	{
         $.support.cors = true;
         $.mobile.allowCrossDomainPages = true;
+        $.mobile.touchOverflowEnabled = true;
         var networkState = navigator.network.connection.type;
         
         if(networkState.toUpperCase() != "UNKNOWN" && networkState.toUpperCase() != "NONE")
@@ -2264,6 +2265,7 @@
                             var tamanhoMapa = "280x210";
                          }
                          $("#enderecoMapa").html($(this).parent().html());
+                         $("#linkMapa").attr("src","https://maps.google.com/maps/api/staticmap?center="+latM+","+lonM+"&zoom=15&size="+tamanhoMapa+"&markers=color:red%7Clabel:A%7C"+latM+","+lonM+"&sensor=false");
                          $("#imgMapa").attr("src","https://maps.google.com/maps/api/staticmap?center="+latM+","+lonM+"&zoom=15&size="+tamanhoMapa+"&markers=color:red%7Clabel:A%7C"+latM+","+lonM+"&sensor=false");             
                          
             location.href="#mapa";
@@ -3158,7 +3160,7 @@
                       <option value="rj">Rio de Janeiro/RJ</option>
                   </select>
               </div>
-              <div style="overflow-x:auto;" id="filia">
+              <div id="filia">
                   <div id="matriz" class="fili" style="display:none;" align="left">
                       <h4 style="font-size:13px;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;">Matriz</h4>
                       <span style="font-size:11px;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;">R. Majestic, 465 - Cumbica - Guarulhos - SP</span><br>
@@ -3276,7 +3278,7 @@
               <input type="hidden" id="latitude" value=""/>
               <div id="enderecoMapa"></div>
               <div id="mapaContent">
-                  <img src="" id="imgMapa">
+                  <a href="##" id="linkMapa" target="_blank"><img src="" id="imgMapa"></a>
               </div>
           </div>
       </div>

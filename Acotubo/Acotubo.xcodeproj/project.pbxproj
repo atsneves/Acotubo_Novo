@@ -28,14 +28,14 @@
 		575BBFB915B38CB8007FDC5F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 575BBFB815B38CB8007FDC5F /* icon.png */; };
 		575BBFBB15B38CB8007FDC5F /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 575BBFBA15B38CB8007FDC5F /* icon@2x.png */; };
 		575BBFBD15B38CB8007FDC5F /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 575BBFBC15B38CB8007FDC5F /* icon-72.png */; };
-		575BBFC015B38CB8007FDC5F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 575BBFBF15B38CB8007FDC5F /* Default.png */; };
-		575BBFC215B38CB8007FDC5F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 575BBFC115B38CB8007FDC5F /* Default@2x.png */; };
 		575BBFC415B38CB8007FDC5F /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 575BBFC315B38CB8007FDC5F /* Capture.bundle */; };
 		575BBFC615B38CB8007FDC5F /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 575BBFC515B38CB8007FDC5F /* PhoneGap.plist */; };
 		575BBFCA15B38CB8007FDC5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 575BBFC915B38CB8007FDC5F /* AppDelegate.m */; };
 		575BBFCD15B38CB8007FDC5F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 575BBFCC15B38CB8007FDC5F /* MainViewController.m */; };
 		575BBFCF15B38CB8007FDC5F /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575BBFCE15B38CB8007FDC5F /* MainViewController.xib */; };
 		575BBFD815B38D2A007FDC5F /* www in Resources */ = {isa = PBXBuildFile; fileRef = 575BBFD715B38D2A007FDC5F /* www */; };
+		57F2878F15DB4C7100B0836C /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F2878D15DB4C2000B0836C /* Default-Portrait~ipad.png */; };
+		57F2879115DB4C9400B0836C /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 57F2879015DB4C9400B0836C /* Default-Portrait@2x~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +74,8 @@
 		575BBFCE15B38CB8007FDC5F /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
 		575BBFD115B38CB8007FDC5F /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		575BBFD715B38D2A007FDC5F /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		57F2878D15DB4C2000B0836C /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		57F2879015DB4C9400B0836C /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,8 @@
 		575BBF7715B38CB8007FDC5F = {
 			isa = PBXGroup;
 			children = (
+				57F2879015DB4C9400B0836C /* Default-Portrait@2x~ipad.png */,
+				57F2878D15DB4C2000B0836C /* Default-Portrait~ipad.png */,
 				575BBFD715B38D2A007FDC5F /* www */,
 				575BBFA315B38CB8007FDC5F /* Acotubo */,
 				575BBF8815B38CB8007FDC5F /* Frameworks */,
@@ -297,12 +301,12 @@
 				575BBFB915B38CB8007FDC5F /* icon.png in Resources */,
 				575BBFBB15B38CB8007FDC5F /* icon@2x.png in Resources */,
 				575BBFBD15B38CB8007FDC5F /* icon-72.png in Resources */,
-				575BBFC015B38CB8007FDC5F /* Default.png in Resources */,
-				575BBFC215B38CB8007FDC5F /* Default@2x.png in Resources */,
 				575BBFC415B38CB8007FDC5F /* Capture.bundle in Resources */,
 				575BBFC615B38CB8007FDC5F /* PhoneGap.plist in Resources */,
 				575BBFCF15B38CB8007FDC5F /* MainViewController.xib in Resources */,
 				575BBFD815B38D2A007FDC5F /* www in Resources */,
+				57F2878F15DB4C7100B0836C /* Default-Portrait~ipad.png in Resources */,
+				57F2879115DB4C9400B0836C /* Default-Portrait@2x~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
